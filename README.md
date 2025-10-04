@@ -113,7 +113,7 @@ python3 sni_detector.py -f domains.txt -t 50 -T 15 -v
 python3 sni_detector.py -f subdomains.txt -t 200 -T 5
 ```
 
-📊 Output
+# 📊 Output
 
 Generated Files
 
@@ -129,7 +129,7 @@ Console Output
 · Security ratings for each domain
 · Ready-to-use exploit links
 
-🔧 Technical Details
+# 🔧 Technical Details
 
 Bypass Techniques Implemented
 
@@ -147,7 +147,7 @@ Security Assessment
 · VULNERABLE - Multiple bypass methods available
 · CRITICAL - Immediate exploitation possible
 
-⚠️ Legal Disclaimer
+# ⚠️ Legal Disclaimer
 
 This tool is intended for:
 
@@ -156,7 +156,7 @@ This tool is intended for:
 · Vulnerability assessment with proper permissions
 · Academic research purposes
 
-Usage Restrictions:
+# Usage Restrictions:
 
 · ❌ Do not use on networks without explicit authorization
 · ❌ Do not use for malicious activities
@@ -204,32 +204,5 @@ Enable verbose logging for detailed troubleshooting:
 ```bash
 python3 sni_detector.py -f domains.txt -v
 ```
-
-🤝 Contributing
-
-We welcome contributions from the security community:
-
-1. Fork the repository
-2. Create a feature branch
-3. Submit a pull request with comprehensive description
-4. Follow code style and security best practices
-
-📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-🆕 Version Information
-
-· Current Version: 1.0
-· Release Date: 2024
-· Compatibility: Python 3.7+
-
-📞 Support
-
-For technical support and security research discussions:
-
-· Create an issue in the repository
-· Provide detailed reproduction steps
-· Include relevant logs and error messages
 
 ---
