@@ -1,4 +1,6 @@
 # Ultimate Aggressive SNI Bypass Detector & Exploit Tool
+![Preview](assets/1.png)
+
 
 ![python](https://img.shields.io/badge/python-3.7+-blue.svg) ![license](https://img.shields.io/badge/license-MIT-green.svg) ![platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows%20%7C%20macOS-lightgrey.svg)
 
