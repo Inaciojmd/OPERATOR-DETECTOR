@@ -43,33 +43,24 @@ System Requirements
 · 2GB RAM minimum (4GB recommended)
 · Network connectivity for target testing
 
-Python Dependencies
-
-```bash
-pip install requests cryptography dnspython fake-useragent colorama socks pyopenssl tqdm aiohttp async-timeout urllib3
-```
-
 🛠️ Installation
 
 Method 1: Direct Download
 
 ```bash
-git clone <repository-url>
-cd ultimate-sni-bypass-detector
-pip install -r requirements.txt
+git clone https://github.com/Inaciojmd/OPERATOR-DETECTOR
+cd OPERATOR-DETECTOR
+pip3 install -r requirements.txt
 ```
 
 Method 2: Manual Setup
 
 ```bash
 # Create virtual environment (recommended)
-python -m venv sni_env
-source sni_env/bin/activate  # Linux/macOS
+python -m venv daylor_env
+source daylor_env/bin/activate  # Linux/macOS
 # OR
-sni_env\Scripts\activate  # Windows
-
-# Install dependencies
-pip install requests cryptography dnspython fake-useragent colorama socks pyopenssl tqdm aiohttp async-timeout urllib3
+daylor_env\Scripts\activate  # Windows
 ```
 
 📖 Usage
@@ -80,7 +71,7 @@ Basic Syntax
 python3 sni_detector.py -f domains.txt -t 100 -T 10 -v
 ```
 
-Command Line Options
+# Command Line Options
 
 Option Description Default
 -f, --file Input file containing domains/subdomains (required) -
@@ -90,7 +81,7 @@ Option Description Default
 -E, --exploit Generate exploit configurations (always on) Enabled
 -v, --verbose Enable verbose logging Disabled
 
-Input File Format
+# Input File Format
 
 Create a text file with one domain per line:
 
@@ -165,7 +156,7 @@ This tool is intended for:
 
 The developers are not responsible for misuse of this tool. Users assume all responsibility for ensuring their activities comply with applicable laws and regulations.
 
-🛡️ Responsible Disclosure
+# 🛡️ Responsible Disclosure
 
 If you discover vulnerabilities using this tool:
 
@@ -174,21 +165,21 @@ If you discover vulnerabilities using this tool:
 3. Allow reasonable time for remediation
 4. Follow responsible disclosure practices
 
-🔒 Security Considerations
+# 🔒 Security Considerations
 
 · The tool disables SSL verification for testing purposes
 · Generated configurations include allowInsecure flags
 · Use in isolated testing environments only
 · Review all generated configurations before deployment
 
-📈 Performance Tips
+# 📈 Performance Tips
 
 · Adjust thread count based on your system capabilities
 · Use appropriate timeout values for your network
 · Monitor system resources during large scans
 · Consider splitting large domain lists into batches
 
-🐛 Troubleshooting
+# 🐛 Troubleshooting
 
 Common Issues
 
