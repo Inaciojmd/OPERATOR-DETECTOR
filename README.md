@@ -9,7 +9,7 @@ https://img.shields.io/badge/platform-Linux%20%7C%20Windows%20%7C%20macOS-lightg
 
 Ultimate Aggressive SNI Bypass Detector & Exploit Tool is a professional-grade security assessment tool designed to identify and exploit SNI (Server Name Indication) TLS bypass vulnerabilities. This tool employs multiple aggressive techniques to detect misconfigured servers and automatically generates ready-to-use exploit configurations for various protocols.
 
-##⚡ Features
+## ⚡ Features
 
 ## 🔍 Detection Capabilities
 
@@ -138,6 +138,23 @@ Security Assessment
 · VULNERABLE - Multiple bypass methods available
 · CRITICAL - Immediate exploitation possible
 
+
+# 📈 Performance Tips
+
+· Adjust thread count based on your system capabilities
+· Use appropriate timeout values for your network
+· Monitor system resources during large scans
+· Consider splitting large domain lists into batches
+
+# 🐛 Troubleshooting
+
+Common Issues
+
+1. DNS Resolution Failures - Check network connectivity and DNS settings
+2. SSL Context Errors - Ensure OpenSSL libraries are up to date
+3. Memory Issues - Reduce thread count for large scans
+4. False Positives - Verify results with manual testing
+
 # ⚠️ Legal Disclaimer
 
 This tool is intended for:
@@ -172,28 +189,4 @@ If you discover vulnerabilities using this tool:
 · Use in isolated testing environments only
 · Review all generated configurations before deployment
 
-# 📈 Performance Tips
 
-· Adjust thread count based on your system capabilities
-· Use appropriate timeout values for your network
-· Monitor system resources during large scans
-· Consider splitting large domain lists into batches
-
-# 🐛 Troubleshooting
-
-Common Issues
-
-1. DNS Resolution Failures - Check network connectivity and DNS settings
-2. SSL Context Errors - Ensure OpenSSL libraries are up to date
-3. Memory Issues - Reduce thread count for large scans
-4. False Positives - Verify results with manual testing
-
-Debug Mode
-
-Enable verbose logging for detailed troubleshooting:
-
-```bash
-python3 sni_detector.py -f domains.txt -v
-```
-
----
