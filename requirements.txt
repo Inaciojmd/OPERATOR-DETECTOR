@@ -1,0 +1,12 @@
+requests
+cryptography
+dnspython
+fake-useragent
+colorama
+socks
+PySocks
+pyopenssl
+tqdm
+aiohttp
+async-timeout
+urllib3
