@@ -178,10 +178,3 @@ If you find a vulnerability during testing:
 
 ---
 
-## Next steps I can help with
-- Produce a clean English `argparse` help text for `sni_detector.py`.
-- Convert the exploit-generation code into a separate, permission-gated module.
-- Create a safer default configuration and CI checks to prevent accidental public use.
-
-Which would you like me to do next?
-
